@@ -1,0 +1,270 @@
+{
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "weightWatcherSmartPoints": 20,
+    "gaps": "no",
+    "lowFodmap": true,
+    "aggregateLikes": 0,
+    "spoonacularScore": 42.0,
+    "healthScore": 9.0,
+    "creditsText": "Jen West",
+    "sourceName": "Pink When",
+    "pricePerServing": 105.67,
+    "extendedIngredients": [
+        {
+            "id": 93775,
+            "aisle": "Baking",
+            "image": "chocolate-candy-melt.png",
+            "consistency": "solid",
+            "name": "candy melts",
+            "nameClean": "candy melts",
+            "original": "1 (120z.) Wilton White Candy Melts",
+            "originalName": "1 (120z.) Wilton White Candy Melts",
+            "amount": 2.0,
+            "unit": "servings",
+            "meta": [
+                "white",
+                "(120z.)"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                }
+            }
+        },
+        {
+            "id": 1441111,
+            "aisle": "Baking",
+            "image": "food-coloring.png",
+            "consistency": "solid",
+            "name": "green food coloring",
+            "nameClean": "green food color",
+            "original": "5-7 drops green food coloring (into white candy melts)",
+            "originalName": "green food coloring (into white candy melts)",
+            "amount": 5.0,
+            "unit": "drops",
+            "meta": [
+                "white",
+                "green",
+                "(into candy melts)"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 5.0,
+                    "unitShort": "drops",
+                    "unitLong": "drops"
+                },
+                "metric": {
+                    "amount": 5.0,
+                    "unitShort": "drops",
+                    "unitLong": "drops"
+                }
+            }
+        },
+        {
+            "id": 1022050,
+            "aisle": "Baking",
+            "image": "vanilla-extract.jpg",
+            "consistency": "liquid",
+            "name": "peppermint extract",
+            "nameClean": "peppermint extract",
+            "original": "1 tsp. peppermint extract (into white candy melts)",
+            "originalName": "peppermint extract (into white candy melts)",
+            "amount": 1.0,
+            "unit": "tsp",
+            "meta": [
+                "white",
+                "(into candy melts)"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                }
+            }
+        },
+        {
+            "id": 10019903,
+            "aisle": "Baking",
+            "image": "chocolate-chips.jpg",
+            "consistency": "solid",
+            "name": "Semi-Sweet Chocolate Baking Chips",
+            "nameClean": "semisweet chocolate chips",
+            "original": "1 (4oz.) Semi Sweet Ghirardelli Premium Baking Chocolate",
+            "originalName": "Semi Sweet Ghirardelli Premium Baking Chocolate",
+            "amount": 4.0,
+            "unit": "oz",
+            "meta": [
+                "sweet"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 4.0,
+                    "unitShort": "oz",
+                    "unitLong": "ounces"
+                },
+                "metric": {
+                    "amount": 113.398,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        },
+        {
+            "id": 10012061,
+            "aisle": "Baking",
+            "image": "almonds-slivered.png",
+            "consistency": "solid",
+            "name": "slivered almonds",
+            "nameClean": "slivered almonds",
+            "original": "1/2 cup Slivered Almonds",
+            "originalName": "Slivered Almonds",
+            "amount": 0.5,
+            "unit": "cup",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 118.294,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        }
+    ],
+    "id": 715411,
+    "title": "Chocolate Mint Marble Bark with Almonds",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "http://www.pinkwhen.com/chocolate-mint-marble-bark-with-almonds/2",
+    "image": "https://spoonacular.com/recipeImages/715411-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many dessert recipes, so give Chocolate Mint Marble Bark with Almonds a try. This recipe serves 2 and costs $1.06 per serving. Watching your figure? This gluten free, dairy free, and fodmap friendly recipe has <b>492 calories</b>, <b>9g of protein</b>, and <b>35g of fat</b> per serving. Not a lot of people made this recipe, and 1 would say it hit the spot. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Head to the store and pick up wilton candy melts, slivered almonds, peppermint extract, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 44%</b>. This score is good. Try <a href=\"https://spoonacular.com/recipes/dark-chocolate-bark-with-roasted-almonds-and-seeds-198803\">Dark Chocolate Bark with Roasted Almonds and Seeds</a>, <a href=\"https://spoonacular.com/recipes/salted-chocolate-bark-with-almonds-cherries-and-ginger-854805\">Salted Chocolate Bark with Almonds, Cherries, and Ginger</a>, and <a href=\"https://spoonacular.com/recipes/chocolate-mint-bark-859809\">Chocolate Mint Bark</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": [
+        "side dish"
+    ],
+    "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+    ],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "Step 6: Allow to cool for 5 minutes, then transfer to the refrigerator for 90 minutes. Remove and break into pieces to serve.How easy is that? Not to mention, it really is super delicious candy bark! Are you making anything fun for St. Patricks Day? If not, this would be a quick and easy treat to share with everyone.I hope you enjoyed this quick recipe for Chocolate Mint Marble Bark with Almonds, and I will be back soon with another treat to share!JOIN 500,000 SUBSCRIBERS!Join over 500,000 others who follow PinkWhen on Social Media, the PinkWhen blog, and email. Sign up to receive exclusive bonuses like this FREE Simple Fit Dinners Ebook.Don't wait! You won't want to miss a thing.Success! Now check your email to confirm your subscription and download your FREE ebook.There was an error submitting your subscription. Please try again.First NameEmail AddressSubscribePowered by ConvertKitPages: 1 2",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Allow to cool for 5 minutes, then transfer to the refrigerator for 90 minutes.",
+                    "ingredients": [],
+                    "equipment": [],
+                    "length": {
+                        "number": 95,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 2,
+                    "step": "Remove and break into pieces to serve.How easy is that? Not to mention, it really is super delicious candy bark! Are you making anything fun for St. Patricks Day? If not, this would be a quick and easy treat to share with everyone.I hope you enjoyed this quick recipe for Chocolate Mint Marble Bark with Almonds, and I will be back soon with another treat to share!JOIN 500,000 SUBSCRIBERS!Join over 500,000 others who follow Pink",
+                    "ingredients": [
+                        {
+                            "id": 1002064,
+                            "name": "chocolate mint",
+                            "localizedName": "chocolate mint",
+                            "image": "mint.jpg"
+                        },
+                        {
+                            "id": 12061,
+                            "name": "almonds",
+                            "localizedName": "almonds",
+                            "image": "almonds.jpg"
+                        },
+                        {
+                            "id": 0,
+                            "name": "candy",
+                            "localizedName": "candy",
+                            "image": ""
+                        },
+                        {
+                            "id": 0,
+                            "name": "bark",
+                            "localizedName": "bark",
+                            "image": ""
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 3,
+                    "step": "When on Social Media, the Pink",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 4,
+                    "step": "When blog, and email. Sign up to receive exclusive bonuses like this FREE Simple Fit Dinners Ebook.Don't wait! You won't want to miss a thing.Success! Now check your email to confirm your subscription and download your FREE ebook.There was an error submitting your subscription. Please try again.First Name",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 5,
+                    "step": "Email",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 6,
+                    "step": "Address",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 7,
+                    "step": "Subscribe",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 8,
+                    "step": "Powered by Convert",
+                    "ingredients": [],
+                    "equipment": []
+                },
+                {
+                    "number": 9,
+                    "step": "KitPages: 1 2",
+                    "ingredients": [],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/chocolate-mint-marble-bark-with-almonds-715411"
+}

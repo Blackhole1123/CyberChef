@@ -1,0 +1,135 @@
+<!--Extend with Jinja-->
+{% extends "layout.html" %}
+{% block main %}
+<body>
+  <script src="/static/nodejs/main.js"></script>
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+<!--Jquery!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <div class="together"; align='center'>
+      <div class="top top1">
+         <h1>Get Recipe based on Ingredients</h1>
+      </div>
+      <div class="cardd">
+         <br></br>
+         <p class="description">Are you not sure what to cook? You go in your refrigerator and find a few ingredients. You don't know what to do with them. This is where RecipeFinder's get recipe by ingredient tool comes in! You can input a list of ingredients.</p>
+         <div style="margin-left:10px;" class="file">
+            <form method="POST" enctype="multipart/form-data">
+               <!--<label for="file">File: </label>--> 
+               <script>
+              $(":file").filestyle();
+            </script>
+               <br></br>
+               <label for="file1" class="custom-file-upload">Upload your Ingredients
+               </label>
+               <input  data-buttonText="Upload an Image" type="file" id="file1" name="file1" onchange="uploadFile()"
+                  accept="image/png, image/jpeg, .gif, .png, .jpg, .jpeg">
+                  <label for="file1" class="custom-file-upload">Upload What You Want to Cook
+               </label>
+               <input  data-buttonText="Upload an Image" type="file" id="file2" name="file2" onchange="uploadFile2()"
+                  accept="image/png, image/jpeg, .gif, .png, .jpg, .jpeg">
+              
+               <br>
+               <br>
+               <input class="submit but1" value="Search" type="submit" id="sub" style="display:none;">
+            </form>
+            <progress id="progressBar" value="0" max="100" style="width:300px;"></progress>
+            <p id="loaded_n_total"></p>
+            <progress id="progressBar2" value="0" max="100" style="width:300px;"></progress>
+            <!--<h3 id="status"></h3>!-->
+            
+             <p id="loaded_n_total2"></p>
+            </center>
+         </div>
+      </div>
+   </div>
+   <script>
+     var el = document.createElement;
+      function _(el) {
+  return document.getElementById(el);
+}
+
+function uploadFile() {
+  var file = _("file1").files[0];
+  // alert(file.name+" | "+file.size+" | "+file.type);
+  var formdata = new FormData();
+  formdata.append("file1", file);
+  var ajax = new XMLHttpRequest();
+  ajax.upload.addEventListener("progress", progressHandler, false);
+  ajax.addEventListener("load", completeHandler, false);
+  ajax.addEventListener("error", errorHandler, false);
+  ajax.addEventListener("abort", abortHandler, false);
+  ajax.open("POST", "file_upload_parser.php"); // http://www.developphp.com/video/JavaScript/File-Upload-Progress-Bar-Meter-Tutorial-Ajax-PHP
+  //use file_upload_parser.php from above url
+  ajax.send(formdata);
+}
+
+function progressHandler(event) {
+  if (Math.floor(event.loaded / 1024) === Math.floor(event.total / 1024)){
+    document.getElementById("sub").click();
+  }
+  _("loaded_n_total").innerHTML = "Uploaded " + Math.floor(event.loaded / 1024) + " kilobytes of " + Math.floor(event.total / 1024);
+  var percent = (event.loaded / event.total) * 100;
+  _("progressBar").value = Math.round(percent);
+  _("status").innerHTML = Math.round(percent) + "% uploaded... please wait";
+}
+
+function completeHandler(event) {
+  _("status").innerHTML = event.target.responseText;
+  _("progressBar").value = 0; //wil clear progress bar after successful upload
+}
+
+function errorHandler(event) {
+  _("status").innerHTML = "Upload Failed";
+}
+
+function abortHandler(event) {
+  _("status").innerHTML = "Upload Aborted";
+}
+
+function _(el2) {
+  return document.getElementById(el);
+}
+
+function uploadFile2() {
+  var file = _("file2").files[0];
+  // alert(file.name+" | "+file.size+" | "+file.type);
+  var formdata = new FormData();
+  formdata.append("file2", file);
+  var ajax = new XMLHttpRequest();
+  ajax.upload.addEventListener("progress", progressHandler2, false);
+  ajax.addEventListener("load", completeHandler, false);
+  ajax.addEventListener("error", errorHandler, false);
+  ajax.addEventListener("abort", abortHandler, false);
+  ajax.open("POST", "file_upload_parser.php"); // http://www.developphp.com/video/JavaScript/File-Upload-Progress-Bar-Meter-Tutorial-Ajax-PHP
+  //use file_upload_parser.php from above url
+  ajax.send(formdata);
+}
+
+function progressHandler2(event) {
+  if (Math.floor(event.loaded / 1024) === Math.floor(event.total / 1024)){
+    document.getElementById("sub").click();
+  }
+  _("loaded_n_total2").innerHTML = "Uploaded " + Math.floor(event.loaded / 1024) + " kilobytes of " + Math.floor(event.total / 1024);
+  var percent = (event.loaded / event.total) * 100;
+  _("progressBar2").value = Math.round(percent);
+  _("status").innerHTML = Math.round(percent) + "% uploaded... please wait";
+}
+
+function completeHandler2(event) {
+  _("status").innerHTML = event.target.responseText;
+  _("progressBar2").value = 0; //wil clear progress bar after successful upload
+}
+
+function errorHandler2(event) {
+  _("status").innerHTML = "Upload Failed";
+}
+
+function abortHandler2(event) {
+  _("status").innerHTML = "Upload Aborted";
+}
+</script>
+
+</body>
+{% endblock %}

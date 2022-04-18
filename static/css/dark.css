@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.extra{
+  display:none;
+}
+body{
+  background:rgb(33, 37, 35) !important;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  margin:0;
+}
+a{
+  font-weight:bolder;
+  color:orange !important;
+}
+.navigationelement{
+  background-color:rgb(53, 23, 20) !important;
+  margin-bottom:30px;
+  width:100%;
+  height:100px;
+  margin:0;
+}
+.navigationelement a{
+  color:white !important;
+}
+a:hover{
+  color:red;
+}
+.but2{
+  color:white;
+  background: rgb(53, 23, 20);
+  padding:10px;
+  border-radius:10px;
+  border-style:none;
+  font-size:1.3em;
+}
+.but2:hover{
+  color:white;
+  background: rgb(53, 23, 20);
+  padding:10px;
+  border-radius:10px;
+  border-style:none;
+  font-size:1.3em;
+}
+
+.but1{
+  color:white;
+  background: rgb(53, 23, 20);
+  padding:10px;
+  border-radius:10px;
+  border-style:none;
+  font-size:1.3em;
+}
+.but1:hover{
+  color:white;
+  background: rgb(53, 23, 20);
+  padding:10px;
+  border-radius:10px;
+  border-style:none;
+  font-size:1.3em;
+}
+
+  .custom-file-upload {
+    background:rgb(53, 23, 20);
+    color:white;
+    border-radius:10px;
+    border-style:none;
+  }
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 250px;
+  height: 20px;
+  
+}
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(right, #4CA4F1, #853CA9);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+/* progress[value]::-webkit-progress-bar{
+  background-image: linear-gradient(to right, #4CA4F1, #853CA9) !important;
+} */
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.cardd{
+  margin-top:-10px;
+  padding:50px;
+  padding-top:0px;
+  background:rgb(71, 71, 65);
+  border-radius: 0px 0px 5px 5px !important;
+  top: 50%;
+}
+
+.top h1{
+  font-size:1.3em; 
+  color:white;
+}
+.top{
+  
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:20px;
+  padding-bottom:20px;
+  bottom:0px; 
+  border-radius: 5px 5px 0px 0px  !important;
+}
+.top1{
+  background: rgb(53, 23, 20) ;
+}
+.top2{
+  background: rgb(53, 23, 20) ;
+  
+}
+.together{
+  
+  float:left;
+  width:500px;
+  margin:40px;
+  border-radius:5px;
+  background:white;
+}
+
+.description{
+  color:#da934d;
+  font-size:1.1em;
+}
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+  display: block;
+  
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background: #B85042;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+#view {
+  color:white;
+  background: #B85042;
+  border-radius:10px;
+  border-style:none;
+  text-align: left;
+  float: left;
+}
+
+.thiss{
+	margin-left: 100px;
+}
+
